@@ -1,0 +1,239 @@
+:root {
+    --bg-dark: #1F2937;
+    --header-logo: #F9FAF8;
+    --header-text: #1F2937;
+    --hero-main-text: #F9FAF8;
+    --hero-secondary-text: #E5E7EB;
+    --quote-section-text: #1F2937;
+    --bg-quote-section: #E5E7EB;
+    --btn-action: #3882F6;
+}
+
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url('../fonts/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto-LightItalic';
+    src: url('../fonts/Roboto-LightItalic.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto-Extrabold';
+    src: url('../fonts/Roboto-Black.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto-Regular', sans-serif;
+}
+
+a {
+    color: var(--hero-main-text);
+    text-decoration: none;
+}
+
+button {
+    padding: 10px 30px;
+    background: var(--btn-action);
+    color: var(--hero-main-text);
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.main-container {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 20px;
+    cursor: default;
+
+}
+
+header .logo{
+    font-size: 24px;
+    color: var(--header-logo);
+}
+
+header {
+    background: var(--bg-dark);
+    color: var(--header-text);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px 150px;
+}
+
+header nav ul {
+    display: flex;
+    gap: 30px
+}
+
+header nav ul li{
+    list-style: none;
+}
+
+header nav a {
+    text-decoration: none;
+}
+
+main {
+    background: var(--bg-dark);
+    color: var(--hero-main-text);
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 150px;
+}
+
+main .left, main .right {
+    width: 100%;
+}
+
+main .left h1 {
+    font-family: 'Roboto-Extrabold', sans-serif;
+    font-size: 48px;
+    margin: 0;
+}
+
+main .left {
+    font-size: 18px;
+}
+
+main .left button {
+    border: 1px solid var(--btn-action);
+    font-size: inherit;
+    margin: 20px 0;
+}
+
+main .right {
+    display: flex;
+    justify-content: right;
+}
+
+#speakers {
+    background: #fff;
+    padding: 50px 0 80px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#speakers h2{
+    font-family: 'Roboto-Extrabold', sans-serif;
+    font-size: 36px;
+}
+
+#speakers .cards-container {
+    margin-top: 30px;
+    display: flex;
+}
+
+#speakers .cards-container h2 {
+    display: inline-block;
+    text-align: center;
+}
+
+#speakers .card {
+    width: 180px;
+    height: 180px;
+    padding: 16px;
+    color: var(--quote-section-text)
+}
+
+#speakers .card img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#speakers .card p {
+    text-align: center;
+}
+
+#quotes {
+    background: var(--bg-quote-section);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    color: var(--quote-section-text)
+}
+
+#quotes .container {
+    padding: 100px 200px;
+}
+
+#quotes .container p {
+    font-family: 'Roboto-LightItalic';
+    font-size: 36px;
+}
+
+#quotes b {
+    display: block;
+    text-align: right;
+    font-size: 24px;
+}
+
+section.action {
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+    color: var(--hero-secondary-text);
+}
+
+section.action .container{
+    width: 940px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: var(--btn-action);
+    padding: 50px 0;
+    border-radius: 10px;
+}
+
+section.action .container .text p:first-child {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+section.action .container .text p:nth-child(2) {
+    font-weight: 400;
+    font-size: 22px;
+}
+
+section.action button {
+    border: 1px solid var(--hero-main-text);
+    font-size: inherit;
+}
+
+.btn-to-top {
+    position: fixed;
+    bottom: 3%;
+    right: 3%;
+    height: 40px;
+    width: 40px;
+    background: var(--bg-dark);
+    opacity: 0.3;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    background: var(--bg-dark);
+    color: var(--hero-secondary-text);
+    padding: 44px 0 44px 0;
+    display: flex;
+    justify-content: center;
+}
