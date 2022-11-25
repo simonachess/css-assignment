@@ -350,7 +350,7 @@ form .btn-conainer {
     padding-top: 20px;
 }
 
-form .btn {
+form .btn-conainer a {
     font-size: 20px;
     padding: 10px 30px;
     background: var(--btn-action);
@@ -359,6 +359,24 @@ form .btn {
     cursor: pointer;
     font-weight: 700;
     border: none;
+}
+
+.success-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px 0;
+    align-items: center;
+    font-family: 'Roboto-Regular', sans-serif;
+}
+
+.success-container h2 {
+    margin-bottom: 50px;
+}
+
+.success-container p {
+    margin-bottom: 40px;
+    font-size: 24px;
 }
 
 @media screen and (max-width: 1024px) {
