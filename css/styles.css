@@ -380,28 +380,28 @@ form .btn-conainer a {
     header {
         padding: 20px;
     }
-    .main {
+    #info {
         flex-direction: column;
         padding: 40px 20px;
     }
 
-    .main .left .btn-container{
+    #info .left .btn-container{
         justify-content: center;
     }
 
-    .main .left p, main .left h1 {
+    #info .left p,  #info .left h1 {
         text-align: center;
     }
 
-    .main .right {
+    #info .right {
         justify-content: center;
     }
 
-    #speakers .cards-container {
+    #speakers .figure-container {
         flex-wrap: wrap;
         justify-content: center;
     }
-    #quotes .container {
+    #quotes blockquote {
         padding: 40px;
     }
     section.action .container {
