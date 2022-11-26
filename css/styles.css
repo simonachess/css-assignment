@@ -9,21 +9,6 @@
     --btn-action: #3882F6;
 }
 
-@font-face {
-    font-family: 'Roboto-Regular';
-    src: url('../fonts/Roboto-Regular.ttf');
-}
-
-@font-face {
-    font-family: 'Roboto-LightItalic';
-    src: url('../fonts/Roboto-LightItalic.ttf');
-}
-
-@font-face {
-    font-family: 'Roboto-Extrabold';
-    src: url('../fonts/Roboto-Black.ttf');
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -119,6 +104,12 @@ main .left a.button {
     font-size: inherit;
     margin: 20px 0;
 }
+
+main .left a.button:hover {
+    background: var(--hero-secondary-text);
+    color: var(--btn-action)
+}
+
 
 main .right {
     display: flex;
@@ -218,6 +209,11 @@ section.action .container .text p:nth-child(2) {
 section.action a.button {
     border: 1px solid var(--hero-main-text);
     font-size: inherit;
+}
+
+section.action a.button:hover {
+    background: var(--hero-secondary-text);
+    color: var(--btn-action)
 }
 
 .btn-to-top {
@@ -365,7 +361,7 @@ form .btn-conainer a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 50px 0;
+    padding: 50px;
     align-items: center;
     font-family: 'Roboto-Regular', sans-serif;
 }
