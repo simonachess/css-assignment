@@ -188,12 +188,12 @@ section.action .container{
     border-radius: 10px;
 }
 
-section.action .container .text p:first-child {
+section.action .container article p:first-child {
     font-weight: 700;
     font-size: 24px;
 }
 
-section.action .container .text p:nth-child(2) {
+section.action .container article p:nth-child(2) {
     font-weight: 400;
     font-size: 22px;
 }
@@ -368,7 +368,7 @@ form .btn-conainer a {
     font-size: 24px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1240px) {
     header {
         padding: 20px;
     }
@@ -400,7 +400,7 @@ form .btn-conainer a {
         flex-direction: column;
         padding: 50px 20px;
     }
-    section.action .container .text {
+    section.action .container article {
         text-align: center;
     }
 
