@@ -372,6 +372,7 @@ form .btn-conainer a {
     header {
         padding: 20px;
     }
+
     #info {
         flex-direction: column;
         padding: 40px 20px;
@@ -393,13 +394,16 @@ form .btn-conainer a {
         flex-wrap: wrap;
         justify-content: center;
     }
+
     #quotes blockquote {
-        padding: 40px;
+        padding: 100px;
     }
+
     section.action .container {
         flex-direction: column;
         padding: 50px 20px;
     }
+
     section.action .container article {
         text-align: center;
     }
@@ -407,7 +411,14 @@ form .btn-conainer a {
     section.action .container a.button {
         margin: 20px 0
     }
+
     form {
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    #quotes blockquote {
+        padding: 100px;
     }
 }
