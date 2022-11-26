@@ -77,7 +77,7 @@ header nav a {
     text-decoration: none;
 }
 
-main {
+.main {
     background: var(--bg-dark);
     color: var(--hero-main-text);
     display: flex;
@@ -85,33 +85,33 @@ main {
     padding: 100px 150px;
 }
 
-main .left, main .right {
+.main .left, main .right {
     width: 100%;
 }
 
-main .left h1 {
+.main .left h1 {
     font-family: 'Roboto-Extrabold', sans-serif;
     font-size: 48px;
     margin: 0;
 }
 
-main .left {
+.main .left {
     font-size: 18px;
 }
 
-main .left a.button {
+.main .left a.button {
     border: 1px solid var(--btn-action);
     font-size: inherit;
     margin: 20px 0;
 }
 
-main .left a.button:hover {
+.main .left a.button:hover {
     background: var(--hero-secondary-text);
     color: var(--btn-action)
 }
 
 
-main .right {
+.main .right {
     display: flex;
     justify-content: right;
 }
@@ -379,20 +379,20 @@ form .btn-conainer a {
     header {
         padding: 20px;
     }
-    main {
+    .main {
         flex-direction: column;
         padding: 40px 20px;
     }
 
-    main .left .btn-container{
+    .main .left .btn-container{
         justify-content: center;
     }
 
-    main .left p, main .left h1 {
+    .main .left p, main .left h1 {
         text-align: center;
     }
 
-    main .right {
+    .main .right {
         justify-content: center;
     }
 
