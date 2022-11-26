@@ -41,7 +41,7 @@ a.button {
     font-weight: 700;
 }
 
-.main-container {
+main {
     max-width: 1240px;
     margin: 0 auto;
     padding: 0 20px;
@@ -77,7 +77,7 @@ header nav a {
     text-decoration: none;
 }
 
-#main {
+#info {
     background: var(--bg-dark);
     color: var(--hero-main-text);
     display: flex;
@@ -85,33 +85,33 @@ header nav a {
     padding: 100px 150px;
 }
 
-#main .left, #main .right {
+#info .left, #info .right {
     width: 100%;
 }
 
-#main .left h1 {
+#info .left h1 {
     font-family: 'Roboto-Extrabold', sans-serif;
     font-size: 48px;
     margin: 0;
 }
 
-#main .left {
+#info .left {
     font-size: 18px;
 }
 
-#main .left a.button {
+#info .left a.button {
     border: 1px solid var(--btn-action);
     font-size: inherit;
     margin: 20px 0;
 }
 
-#main .left a.button:hover {
+#info .left a.button:hover {
     background: var(--hero-secondary-text);
     color: var(--btn-action)
 }
 
 
-#main .right {
+#info .right {
     display: flex;
     justify-content: right;
 }
